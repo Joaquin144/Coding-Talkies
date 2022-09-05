@@ -59,4 +59,7 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+
+    //exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.18.0' //also in project level gradle: do compose version 1.1.1 and kotlin= 1.6.10 to avoid compile errors
 }
